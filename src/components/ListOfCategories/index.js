@@ -1,15 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import { Category } from '../Category'
 import { List, Item } from './styles'
-import database from '../../../api/db.json'
 
 const useCategoriesData = () => {
-  const [categories, setCategories] = useState(database.categories)
+  const [categories, setCategories] = useState([])
   const [loading, setLoading] = useState(false)
 
   useEffect(() => {
     setLoading(true)
-    window.fetch('https://petgram-server.midudev.now.sh/categories')
+    window.fetch('http://localhost:3500/categories')
       .then(res => res.json())
       .then(response => {
         setCategories(response)

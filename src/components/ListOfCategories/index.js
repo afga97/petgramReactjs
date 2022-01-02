@@ -8,13 +8,23 @@ const useCategoriesData = () => {
 
   useEffect(() => {
     setLoading(true)
+    let isCancelled = false
     window.fetch('http://localhost:3500/categories')
       .then(res => res.json())
       .then(response => {
-        setCategories(response)
-        setLoading(false)
+        if (!isCancelled) {
+          setCategories(response)
+          setLoading(false)
+        }
       })
-      .catch(e => setLoading(false))
+      .catch(e => {
+        if (!isCancelled) {
+          setLoading(false)
+        }
+      })
+    return () => {
+      isCancelled = true
+    }
   }, [])
 
   return {

@@ -25,7 +25,12 @@
     {
       "id": "66cfd8d0-6c25-11ec-abfd-13c27ab18f27",
       "password": "$2b$10$wrA5ghP0zIwlVPZixORkUujTHdiL4MQrVc5N8ShL/cPk3c0cDqtoS",
-      "favs": [],
+      "favs": [
+        "16",
+        "0",
+        "13",
+        "15"
+      ],
       "avatar": "https://gravatar.com/avatar/24871f18751e4198c8c2c21bcdf57c3a",
       "email": "afga1@gmail.com"
     }
@@ -80,7 +85,7 @@
       "categoryId": 2,
       "src": "https://res.cloudinary.com/midudev/image/upload/w_300/q_80/v1560262103/dogs.png",
       "userId": 100,
-      "likes": 7
+      "likes": 8
     },
     {
       "id": 1,
@@ -94,7 +99,7 @@
       "categoryId": 4,
       "src": "https://images.unsplash.com/photo-1520561805070-83c413349512?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       "userId": 1,
-      "likes": 1
+      "likes": 2
     },
     {
       "id": 18,
@@ -108,7 +113,7 @@
       "categoryId": 4,
       "src": "https://images.unsplash.com/photo-1452857297128-d9c29adba80b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       "userId": 1,
-      "likes": 1
+      "likes": 2
     },
     {
       "id": 7,
@@ -129,7 +134,7 @@
       "categoryId": 1,
       "src": "https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       "userId": 1,
-      "likes": 8
+      "likes": 9
     },
     {
       "id": 11,
